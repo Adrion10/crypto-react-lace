@@ -49,6 +49,7 @@ const CoinInfo = ({ coin }) => {
 
   useEffect(() => {
     fetchHistoricData();
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [days]);
 
@@ -99,7 +100,7 @@ const CoinInfo = ({ coin }) => {
                 },
               }}
             />
-       
+
             <div
               style={{
                 display: "flex",
